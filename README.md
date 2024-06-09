@@ -24,7 +24,7 @@ Adds the total tip to the original bill to get the final total.
 Divides the total bill by the number of people to find the share for each person.  
 `bill_per_person = total / people`
 ### Format the Amount to 2 Decimal Places
-This line formats the amount each person should pay to two decimal places for a cleaner display using the `'{:.2f}'.format()`.  
+Using the `'{:.2f}'.format()` formats the amount each person should pay to two decimal places for a cleaner display.   
 `rounded_per_person = '{:.2f}'.format(bill_per_person)`
 ### Display the Amount Each Person Should Pay
 Uses an f-string to insert the formatted amount into the message.  
